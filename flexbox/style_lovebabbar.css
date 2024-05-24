@@ -1,0 +1,96 @@
+.container{
+    height: 700px;
+    background-color: beige;
+    border: 1px solid black;
+    padding: 2px;
+
+    display: flex;
+
+    flex-direction: row ;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: row  wrap ; */
+    /* justify-content: start; */
+    /* align-items: start;  */
+    /* align-content:start;  */
+    
+
+
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid brown;
+    margin: 2px;
+    /* padding: 2px; */
+    
+    /* center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#box1{
+    background-color: aqua;
+    /* align-self: center; */
+    /* order: 5; */
+}
+#box2{
+    background-color: blue;
+    /* align-self: end; */
+    /* flex-shrink: 3; */
+}
+#box3{
+    background-color: orange;
+    /* flex-grow: 3; */
+}
+#box4{
+    background-color: brown;
+    /* align-self:center; */
+    /* order: -1; */
+    /* flex-basis: 300px; */
+    /* flex: flex-grow flex-shrink flex-basis; */
+}
+
+/* 
+
+container property ---
+
+flex-direction - default is row 
+row , row-reverse , column , column-reverse
+flex-wrap  - default is nowrap 
+    wrap , nowrap , wrap-reverse
+flex-flow - shorthand for flex-direction , flex-wrap
+    defalut is row,nowrap
+    all combination  
+
+justify-content: acc to main axis ;
+if flex-direction = row  then main axis is horizonatal 
+if flex-direction = columns  then main axis is vertical 
+start , center , end , space-evenly , space-between , space-around , ..... 
+
+align-items: corresponding to cross axis ;
+if flex-direction = row then cross axis is vertical 
+if flex-direction = columns  then cross axis is horizonatal 
+start , center , end , space-evenly , space-between , space-around , 
+stretch -> but box ka height set nahi hona chahiye 
+..... 
+
+align-content ( when flex-wrap is wrap , you can adjust the distance between rows/columns )
+start , center , end , space-evenly , space-between , space-around , ..... 
+
+
+
+item property ---
+order - default 1 , jiska kam woh left side 
+flex-shrink - default 1  , its basicall shrinking speed  
+flex-grow - default 1 , its basicall shrinking speed  
+flex-basis - sets the dimension
+flex: shorthand for ==> flex-grow flex-shrink flex-basis;
+align-self: single item ko kaise yaahn wahan karta hai ==> start , end , center , .........
+
+
+*/
+
