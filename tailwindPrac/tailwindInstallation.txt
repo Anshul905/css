@@ -2,3 +2,11 @@ https://tailwindcss.com/docs/installation
 
 https://www.youtube.com/watch?v=s2p3AxNXwsE&list=PLu71SKxNbfoBLTxvkUIvy3_VR-vZK6Eq7
 
+https://tailwindcomponents.com/cheatsheet/
+
+https://tailwindcss.com/docs/display#grid
+
+https://tailwindcss.com/docs/responsive-design
+
+rebuild it something is not generating in output.css 
+npx tailwindcss -i src/input.css -o src/output.css --watch
